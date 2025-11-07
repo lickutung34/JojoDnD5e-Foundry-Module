@@ -1,0 +1,65 @@
+{
+  "id": "jojodandd5e",
+  "title": "JoJoD&D5E",
+  "esmodules": [
+    "skillsandac.js",
+    "ability-score.js",
+    "grant-vampire.js",
+    "grant-epm.js"
+  ],
+  "version": "1.0.0",
+  "compatibility": {
+    "minimum": "12",
+    "verified": "12",
+    "maximum": "12"
+  },
+  "description": "a module designed to make setting up a game using the JoJo 5e system easier for people, this module isn't the most advanced but it does get the job done. Currently this module includes\n- A compendium full of all the jojo 5e that includes the classes and effects\n- Custom Skills form the system\n- two effects that calculate stand stats/ac and one that calculates Ini(not these will need to be added to you and your stands character sheet)\n\nSome things to be aware of, \n- Im unable to change the abilities without clogging the screen, if I find a solution I will change that.\n- this is primarily a shared compendium, the skill changes that have been implemented are being done as a way to make things easier on dms and players alike.",
+  "packs": [
+    {
+      "name": "jojos-dnd-5e",
+      "label": "Jojos DnD 5e",
+      "path": "packs/jojos-dnd-5e",
+      "type": "Adventure",
+      "system": "dnd5e",
+      "ownership": {
+        "PLAYER": "OBSERVER",
+        "ASSISTANT": "OWNER"
+      }
+    }
+  ],
+  "relationships": {
+    "requires": [
+      {
+        "id": "dae",
+        "type": "module",
+        "compatibility": {}
+      },
+      {
+        "id": "custom-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ],
+    "systems": [
+      {
+        "id": "dnd5e",
+        "type": "system",
+        "compatibility": {}
+      }
+    ],
+    "recommends": [
+      {
+        "id": "custom-dnd5e",
+        "type": "module",
+        "compatibility": {}
+      }
+    ]
+  },
+  "authors": [
+    {
+      "name": "Kirbo.exe",
+      "discord": "Kirbo.exe",
+      "flags": {}
+    }
+  ]
+}
