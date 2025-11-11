@@ -1,5 +1,5 @@
 # JojoDnD5e-Foundry-Module
-This module was designed using the Jojo DnD 5e supplement, I am not the creature of the supplement nor do I claim to be.
+This module was designed using the Jojo DnD 5e supplement, I am not the creator of the supplement nor do I claim to be.
 
 This module add all of the content for the supplement to foundry with some exeption(the weapons mostly and some automation). this is meant to remove most of the hard parts from running it on foundry i.e making the classes and features/feats your self and adding some automation.
 
